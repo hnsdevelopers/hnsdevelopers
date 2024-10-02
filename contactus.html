@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HnS Developers</title>
+    <link rel="stylesheet" href="contactusstyle.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="navbar">
+        <div class="heading">
+            <h2>HnS Dev</h2>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul>
+                <li onclick="location.href='index.html'">HOME</li>
+                <li class="servicesBtn" onclick="location.href='#services'">SERVICES</li>
+                <li onclick="location.href='pricing.html'" class="servicesBtn">PRICING</li>
+                <li onclick="location.href='aboutus.html'">ABOUT US</li>
+                <li onclick="location.href='contactus.html'">CONTACT US</li>
+                <div class="searchField">
+                    <input type="text" id="searchServices" placeholder="Search docs..."><p>/</p>
+                </div>
+                <li><i id="darkMode" class="bx bx-moon"></i><i class="bx bx-sun" id="lightMode"></i></li>
+                
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+        <h2>Contact Us</h2>
+        <div class="loc_form">
+            <div class="location">
+                <div style="width: 100%"><iframe width="100%"  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1/118%20Block%201%20Trilok%20Puri%20Delhi%20110091+(HnS%20Developers)&amp;t=&amp;z=15&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe></div>
+                <table>
+                    <tr>
+                        <td>Address:</td>
+                        <td>1/118, Block-1, Trilok Puri, Delhi-110091</td>
+                    </tr>
+                    <tr>
+                        <td>Contact Email:</td>
+                        <td>hnsdevelopersindia@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Contact Number:</td>
+                        <td>+91 88515 44421</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="form">
+                <form onsubmit="return false">
+                    <input type="text" id="sender_name" placeholder="Enter your name">
+                    <input type="email" id="sender_email" placeholder="Enter your email">
+                    <input type="text" id="sender_phone" placeholder="Enter your phone number">
+                    <textarea id="message"></textarea>
+                    <input type="file" id="attatchement" onchange="alert(document.getElementById('attatchement').value)">
+                    <button id="sendMessage">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <footer>
+        <p>Designed and Developed by <span class="companyName">HnS Developers</span> | Managed on <span class="companyName">GitHub</span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

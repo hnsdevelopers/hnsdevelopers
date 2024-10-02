@@ -1,0 +1,157 @@
+{
+    "getStartedPage": [{
+        "title": "Intro",
+        "page": "Getting Started",
+        "pageContent": "getStartedDocs/Allpages/getStarted.html"
+    },
+    {
+        "title": "Intro",
+        "page": "Implementation Plans",
+        "pageContent": "getStartedDocs/Allpages/implementationplans.html"
+    },
+    {
+        "title": "Web Development",
+        "page": "Web Development",
+        "pageContent": "getStartedDocs/Allpages/webDevelopment.html"
+    },
+    {
+        "title": "Web Development",
+        "page": "Frontend Web Application Development",
+        "pageContent": "getStartedDocs/Allpages/frontEndWebApplicationDevelopment.html"
+    },
+    {
+        "title": "Web Development",
+        "page": "Backend Web Application Development",
+        "pageContent": "getStartedDocs/Allpages/backendWebApplicationDevelopment.html"
+    },
+    {
+        "title": "Web Development",
+        "page": "Database Management",
+        "pageContent": "getStartedDocs/Allpages/databaseManagement.html"
+    },
+    {
+        "title": "Web Development",
+        "page": "E-Commerce Web App Development",
+        "pageContent": "getStartedDocs/Allpages/ecommerceWebAppDevelopment.html"
+    },
+    {
+        "title": "Web Development",
+        "page": "Financial Web App Developmemnt",
+        "pageContent": "getStartedDocs/Allpages/financialWebApplicationDevelopment.html"
+    },
+    {
+        "title": "Web Development",
+        "page": "Web Applications on Custom Requests",
+        "pageContent": "getStartedDocs/Allpages/webApplicationsOnCustomRequests.html"
+    },
+    {
+        "title": "Advertisement",
+        "page": "Advertisement",
+        "pageContent": "getStartedDocs/Allpages/advertisement.html"
+    },
+    {
+        "title": "Advertisement",
+        "page": "Social Media Marketing",
+        "pageContent": "getStartedDocs/Allpages/socialMediaMarketing.html"
+    },
+    {
+        "title": "Advertisement",
+        "page": "Banner and Posters",
+        "pageContent": "getStartedDocs/Allpages/bannerAndPosters.html"
+    },
+    {
+        "title": "Advertisement",
+        "page": "Visiting Cards",
+        "pageContent": "getStartedDocs/Allpages/visitingCards.html"
+    },
+    {
+        "title": "Advertisement",
+        "page": "Flyers",
+        "pageContent": "getStartedDocs/Allpages/flyers.html"
+    },
+    {
+        "title": "Advertisement",
+        "page": "Flex and Hoardings",
+        "pageContent": "getStartedDocs/Allpages/flexAndHoardings.html"
+    },
+    {
+        "title": "Advertisement",
+        "page": "Promotional Videos",
+        "pageContent": "getStartedDocs/Allpages/promotionalVideos.html"
+    },
+    {
+        "title": "SEO",
+        "page": "Search Engine Optimization",
+        "pageContent": "getStartedDocs/Allpages/searchEngineOptimization.html"
+    },
+    {
+        "title": "Graphic Designing",
+        "page": "Graphic Designing",
+        "pageContent": "getStartedDocs/Allpages/graphicDesigning.html"
+    },
+    {
+        "title": "Graphic Designing",
+        "page": "Social Media Advt. Designing",
+        "pageContent": "getStartedDocs/Allpages/SocialMediaAdDesigning.html"
+    },
+    {
+        "title": "Graphic Designing",
+        "page": "Banner Designing",
+        "pageContent": "getStartedDocs/Allpages/bannerDesigning.html"
+    },
+    {
+        "title": "Graphic Designing",
+        "page": "Flyer Designing",
+        "pageContent": "getStartedDocs/Allpages/flyerDesigning.html"
+    },
+    {
+        "title": "Graphic Designing",
+        "page": "Logo Designing",
+        "pageContent": "getStartedDocs/Allpages/logoDesigning.html"
+    },
+    {
+        "title": "Graphic Designing",
+        "page": "Digital Media",
+        "pageContent": "getStartedDocs/Allpages/digitalMedia.html"
+    },
+    {
+        "title": "Graphic Designing",
+        "page": "Visiting Card Designing",
+        "pageContent": "getStartedDocs/Allpages/visitingCardDesigning.html"
+    },
+    {
+        "title": "Financial Services",
+        "page": "Financial Services",
+        "pageContent": "getStartedDocs/Allpages/financialServices.html"
+    },
+    {
+        "title": "Financial Services",
+        "page": "Invoicing",
+        "pageContent": "getStartedDocs/Allpages/invoicing.html"
+    },
+    {
+        "title": "Financial Services",
+        "page": "Customer Management",
+        "pageContent": "getStartedDocs/Allpages/customerManagement.html"
+    },
+    {
+        "title": "Financial Services",
+        "page": "Digital Payment Solution",
+        "pageContent": "getStartedDocs/Allpages/digitalPaymentSolution.html"
+    },
+    {
+        "title": "Financial Services",
+        "page": "Financial Services Application",
+        "pageContent": "getStartedDocs/Allpages/financialServicesApplicationDevelopment.html"
+    },
+    {
+        "title": "Financial Services",
+        "page": "Data Verification and Validation",
+        "pageContent": "getStartedDocs/Allpages/dataVerificationAndValidation.html"
+    },
+    {
+        "title": "Financial Services",
+        "page": "More Services on Custom Demands",
+        "pageContent": "getStartedDocs/Allpages/moreServiceonCustomDemands.html"
+    }]
+}

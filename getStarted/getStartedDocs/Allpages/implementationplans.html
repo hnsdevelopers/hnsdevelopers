@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Implementation Plan - HnS Developers</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400&display=swap" rel="stylesheet">
+    <style>
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 10px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #0056b3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 10px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+        tr:hover {
+            background-color: #f1f1f1;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Suggested Implementation Plan with Prerequisites</h1>
+
+    <div class="section">
+        <h2>Module Packages</h2>
+        <p>HnS Developers offers various modules that are categorized in the following domains:</p>
+
+        <h3>1. Base Modules</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Module Name</th>
+                    <th>Prerequisites</th>
+                    <th>Expected Timeline</th>
+                    <th>Responsible</th>
+                    <th>Accountable</th>
+                    <th>Consulted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Organizational Unit Type</td>
+                    <td></td>
+                    <td>1 day</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Organization Units</td>
+                    <td></td>
+                    <td>2 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Designation</td>
+                    <td></td>
+                    <td>1 day</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Employee</td>
+                    <td>Employee data should be available</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Users</td>
+                    <td>Employee details should be added and mapped with concerned OUs/department. Official emails should be available for admin account creation.</td>
+                    <td>1 day</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>2. HRM and Employee Lifecycle Modules</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Module Name</th>
+                    <th>Prerequisites</th>
+                    <th>Expected Timeline</th>
+                    <th>Responsible</th>
+                    <th>Accountable</th>
+                    <th>Consulted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Employee Management</td>
+                    <td>Base modules should be configured.</td>
+                    <td>1 week</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Leave Management</td>
+                    <td>Base and employee module should be configured. Leave balance should be available.</td>
+                    <td>1 week</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Payroll Management</td>
+                    <td>Base and employee module should be configured.</td>
+                    <td>1-2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Knowledge Management</td>
+                    <td>Base and employee module should be configured.</td>
+                    <td>1 day</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Career Advancement Scheme</td>
+                    <td>Base and employee module should be configured.</td>
+                    <td>3-5 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Training of Trainers</td>
+                    <td>Base and employee modules should be configured.</td>
+                    <td>3-5 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Recruitment (On Demand)</td>
+                    <td>OU/Department should be added. Draft advertisement and Payment gateway details should be shared with HnS Developers.</td>
+                    <td>1-3 Weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>3. Academic and Student Lifecycle Modules</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Module Name</th>
+                    <th>Prerequisites</th>
+                    <th>Expected Timeline</th>
+                    <th>Responsible</th>
+                    <th>Accountable</th>
+                    <th>Consulted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Programme Management</td>
+                    <td>Base modules should be configured. Course and Student details should be available.</td>
+                    <td>1 week</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Student Management</td>
+                    <td>Programme, Courses, and Student details should be added in the system.</td>
+                    <td>1 week</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Examination Management</td>
+                    <td>Programme, Course Structure, Course Selection, Student data, and Academic Settings should be configured. Payment gateway integration kit should be shared for taking fees.</td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Evaluation & Grading</td>
+                    <td>Programme, Course Structure, Course Selection, Student data, and Examination Settings should be configured.</td>
+                    <td>2-3 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Certificate Management</td>
+                    <td>Programme, Examination, Evaluation & Grading modules should be configured.</td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Training & Placement</td>
+                    <td>Programme and Students details should be configured. Training & Placement department mapping should be done. Company and Opportunity details should be available.</td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>Student Feedback Management</td>
+                    <td>Programme, Courses, and Student details should be configured.</td>
+                    <td>3-4 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Hostel Management</td>
+                    <td>Programme, Courses, and Student should be mapped in the system. Payment gateway integration kit should be shared for taking mess/hostel fees.</td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td>Alumni Management</td>
+                    <td>Base and Programme should be configured in the system. Payment gateway integration kit should be shared for taking Alumni registration fees if applicable.</td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td>Convocation</td>
+                    <td>Programme & OU mapping should be configured in the system. Payment gateway integration kit should be shared for taking convocation fees if applicable.</td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>11.</td>
+                    <td>Managed LMS/VLE & Online Proctored Examination (On Demand)</td>
+                    <td></td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td>Research Management (Thesis Submission)</td>
+                    <td>Ph.D. Students' details should be added. Research Thesis Submission approval hierarchy details should be available.</td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>13.</td>
+                    <td>Time Table Management</td>
+                    <td>Programme, Batches, Sections should be created. Students should be allotted in their respective batches and sections.</td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>14.</td>
+                    <td>Admissions</td>
+                    <td>Programmes should be added. Payment gateway integration kit for taking admission/registration fees.</td>
+                    <td>2-3 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>15.</td>
+                    <td>Online Open Book Examinations (On Demand)</td>
+                    <td></td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>16.</td>
+                    <td>Online Proctored Examinations (On Demand)</td>
+                    <td></td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>4. Finance and Accounts</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Module Name</th>
+                    <th>Prerequisites</th>
+                    <th>Expected Timeline</th>
+                    <th>Responsible</th>
+                    <th>Accountable</th>
+                    <th>Consulted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Finance Supply Chain Management (Budget & Accounts)</td>
+                    <td>Base modules should be configured. Budget heads and subheads, bank details, budget approval hierarchy details should be available.</td>
+                    <td>1 week</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Bill Tracking System</td>
+                    <td>Base modules should be configured. Bill types and hierarchy of bill approval details should be available.</td>
+                    <td>1 week</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Inventory Management System</td>
+                    <td>Base modules should be configured. Budget heads subheads and vendor details should be added.</td>
+                    <td>1 week</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Research Project and Grants Management</td>
+                    <td>Base modules should be configured. Settings of FSCM should be configured.</td>
+                    <td>1 week</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3>5. Governance</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>S.No.</th>
+                    <th>Module Name</th>
+                    <th>Prerequisites</th>
+                    <th>Expected Timeline</th>
+                    <th>Responsible</th>
+                    <th>Accountable</th>
+                    <th>Consulted</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>Affiliation Management</td>
+                    <td>Base modules should be configured. Payment gateway integration kit should be shared with HnS Developers. The existing colleges should be added in OUs. The college principals should be assigned respective user roles.</td>
+                    <td>2 weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>Content Federation System</td>
+                    <td>Base modules should be configured.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>Core Communication System</td>
+                    <td>Base modules should be configured. Employees and students detail should be added. For SMS services, SMS integration kit should be shared with HnS Developers.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>4.</td>
+                    <td>Endowment Management</td>
+                    <td>Payment gateway integration kit should be shared with HnS Developers for taking contributions.</td>
+                    <td>2 Weeks</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>5.</td>
+                    <td>Essential Services</td>
+                    <td>Base modules should be configured. Details related to conference hall, guest house, parking, transport should be available.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>6.</td>
+                    <td>Estate Management</td>
+                    <td>Base modules should be configured. Building details should be available.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>7.</td>
+                    <td>File Management and Tracking System</td>
+                    <td>Base modules should be configured.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>8.</td>
+                    <td>Fleet Management</td>
+                    <td>Base modules should be configured. Vehicle details should be available.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>9.</td>
+                    <td>Grievance Management</td>
+                    <td>Base modules should be configured.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>10.</td>
+                    <td>Health Facilities</td>
+                    <td>Base modules should be configured. Health facility should be available in the institution’s premises.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>11.</td>
+                    <td>IT Service Desk Management</td>
+                    <td>Base modules should be configured. ITSD Agent details should be added.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>12.</td>
+                    <td>Legal Case Management</td>
+                    <td>Base modules should be configured.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>13.</td>
+                    <td>Minutes and Resolutions Archive and Retrieval System</td>
+                    <td>Base modules should be configured. Meeting details should be available.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>14.</td>
+                    <td>Residence Allocation and Management</td>
+                    <td>Base and Estate module should be configured. Housing scheme should be available.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>15.</td>
+                    <td>RTI Management</td>
+                    <td>Base module should be configured. Housing scheme should be available.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>16.</td>
+                    <td>Security Management</td>
+                    <td>Base module should be configured. Security guidelines, helplines, awareness programs details should be available.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+                <tr>
+                    <td>17.</td>
+                    <td>Sports Management</td>
+                    <td>Base module should be configured. Sports infrastructure details should be available.</td>
+                    <td>2-3 days</td>
+                    <td>Module Admin</td>
+                    <td>Nodal Officer</td>
+                    <td>HnS Developers</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

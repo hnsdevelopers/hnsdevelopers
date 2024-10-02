@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HnS Developers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="navbar">
+        <div class="heading">
+            <h2>HnS Dev</h2>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul>
+                <li onclick="location.href='index.html'">HOME</li>
+                <li class="servicesBtn" onclick="location.href='#services'">SERVICES</li>
+                <li onclick="location.href='pricing.html'" class="servicesBtn">PRICING</li>
+                <li onclick="location.href='aboutus.html'">ABOUT US</li>
+                <li onclick="location.href='contactus.html'">CONTACT US</li>
+                <div class="searchField">
+                    <input type="text" id="searchServices" placeholder="Search docs..."><p>/</p>
+                </div>
+                <li><i id="darkMode" class="bx bx-moon"></i><i class="bx bx-sun" id="lightMode"></i></li>
+                
+            </ul>
+        </nav>
+
+        
+    </div>
+
+    <div class="main">
+        <h1>HnS Developers - Docs</h1>
+        <p>Explore the HnS Developers documentation portal – a comprehensive technological innovative spot designed 
+            to support your business and effective use of the platform.
+        </p>
+        <button id="getStarted" onclick="location.href='getStarted/index.html'">Click to get started</button><br>
+        <i>HnS Docs v1.0</i>
+    </div>
+
+    <div id="services">
+        <h1>Available Services</h1>
+        <div class="allServices">
+            <div class="serviceCard" onclick="location.href='docs/web'">
+                <div class="service_name">
+                    <h2>Web Development <img class="service_arrow" src="img/curvy-arrow-png.png" alt="Arrow"></h2>
+                </div>
+                <div class="service_desc">
+                    <p>Help businesses take their business online and get their customers from all around the globe and delivern the servce around the globe.</p>
+                </div>
+            </div>
+
+            <div class="serviceCard" onclick="location.href='docs/advt'">
+                <div class="service_name">
+                    <h2>Advertisement <img class="service_arrow" src="img/curvy-arrow-png.png" alt="Arrow"></h2>
+                </div>
+                <div class="service_desc">
+                    <p>Help businesses/ Proprietors and Individuals promote their business on a number of platforms and gain new customers and increase their sales..</p>
+                </div>
+            </div>
+
+
+            <div class="serviceCard" onclick="location.href='docs/seo'">
+                <div class="service_name">
+                    <h2>SEO <img class="service_arrow" src="img/curvy-arrow-png.png" alt="Arrow"></h2>
+                </div>
+                <div class="service_desc">
+                    <p>Help web owners to optimize their website so that their website can appear and can be listed by search egines easily.</p>
+                </div>
+            </div>
+
+            <div class="serviceCard" onclick="location.href='docs/graphics'">
+                <div class="service_name">
+                    <h2>Graphics Designing <img class="service_arrow" src="img/curvy-arrow-png.png" alt="Arrow"></h2>
+                </div>
+                <div class="service_desc">
+                    <p>We offer graphics designing services to interested business and make their business items(like logo and designs) looks modern.</p>
+                </div>
+            </div>
+
+            <div class="serviceCard" onclick="location.href='docs/financial'">
+                <div class="service_name">
+                    <h2>Financial Services <img class="service_arrow" src="img/curvy-arrow-png.png" alt="Arrow"></h2>
+                </div>
+                <div class="service_desc">
+                    <p>The financial Services are designed for the financial institutions so that they can serve their customers the best.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <hr>
+    <footer>
+        <p>Designed and Developed by <span class="companyName">HnS Developers</span> | Managed on <span class="companyName">GitHub</span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

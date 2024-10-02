@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Jost, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, "Helvetica Neue", arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+i.bx-sun{
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: monospace;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+
+.heading {
+    padding: 9px;
+    font-size: 28px;
+}
+
+.heading h2 {
+    color: #000;
+}
+
+nav {
+    position: relative;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    font-size: 19px;
+    padding: 9px;
+    cursor: pointer;
+    transition: 0.6s ease;
+    font-weight: 500;
+    color: #000;
+}
+
+ul li:hover {
+    text-decoration: underline;
+}
+
+ul.services_submenu {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    top: 35px;
+}
+
+ul.services_submenu li {
+    color: #000;
+}
+
+.servicesBtn:hover .services_submenu {
+    display: block;
+}
+
+/* Responsive Styles */
+.hamburger {
+    position: absolute;
+    right: 15px;
+    width: 10%;
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger div {
+    float: right;
+    width: 25px;
+    height: 3px;
+    background-color: 000;
+    margin: 5px 0;
+    background: #000;
+}
+
+nav ul {
+    display: flex;
+}
+
+.searchField{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    background-color: #f8f9fa;
+    /* border: 2px #ccc solid; */
+    /* box-shadow: 0 0 3px #333; */
+    border-radius: 12px;
+}
+
+.searchField input{
+    height: 100%;
+    border: none;
+    outline: none;
+    background: #f8f9fa;
+    padding-left: 5px;
+    border-radius: 12px;
+}
+
+.searchField input::placeholder{
+    font-size: 17px;
+}
+
+.searchField input:focus .searchField{
+    border: 5px solid grey;
+}
+
+.searchField p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    padding: 3px;
+    margin: 5px;
+    height: 25px;
+    width: 25px;
+    border: 1px solid #ccc;
+}
+
+.main{
+    padding-top: 130px;
+}
+
+.main .heading h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.servic_box{
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.servic_box p{
+    cursor: pointer;
+    color:rgb(60, 0, 138)
+}
+
+.servic_box:hover{
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+hr{
+    color: grey;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.companyName{
+    color: rgb(60, 0, 138);
+    cursor: pointer;
+}
+
+.companyName:hover{
+    text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+        float: right;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    ul li {
+        padding: 15px;
+        text-align: center;
+    }
+
+    ul.services_submenu {
+        position: relative;
+    }
+
+    ul.services_submenu li {
+        color: black;
+    }
+}

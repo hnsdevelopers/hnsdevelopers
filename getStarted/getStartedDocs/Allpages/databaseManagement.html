@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HnS Developers - Database Management</title>
+    <style>
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin: 10px 0 5px;
+        }
+
+        form input, form textarea {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        form button {
+            padding: 10px;
+            background: #333;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <main>
+        <section id="intro">
+            <h2>Introduction to Database Management</h2>
+            <p>
+                Database management involves the creation, maintenance, and utilization of databases to store, organize, and retrieve data efficiently. At HnS Developers, we specialize in developing database solutions that are tailored to meet the specific needs of our clients, ensuring data integrity, security, and accessibility.
+            </p>
+        </section>
+
+        <section id="terminology">
+            <h2>Database Management Terminologies</h2>
+            <ul style="display: flex; flex-wrap: wrap;">
+                <li><strong>DBMS (Database Management System):</strong> Software for creating and managing databases.</li>
+                <li><strong>SQL (Structured Query Language):</strong> A standardized language for managing relational databases.</li>
+                <li><strong>NoSQL:</strong> Non-relational databases designed for unstructured data.</li>
+                <li><strong>Normalization:</strong> The process of organizing data to reduce redundancy.</li>
+                <li><strong>Backup:</strong> Creating copies of data to prevent loss.</li>
+                <li><strong>Data Integrity:</strong> Accuracy and consistency of data over its lifecycle.</li>
+            </ul>
+        </section>
+
+        <section id="technologies">
+            <h2>Database Technologies</h2>
+            <p>
+                We leverage various technologies for effective database management, including:
+            </p>
+            <ul style="display: flex; flex-wrap: wrap;">
+                <li><strong>MySQL:</strong> An open-source relational database management system.</li>
+                <li><strong>PostgreSQL:</strong> A powerful, open-source object-relational database system.</li>
+                <li><strong>MongoDB:</strong> A NoSQL database known for its flexibility and scalability.</li>
+                <li><strong>Oracle Database:</strong> A multi-model database management system from Oracle Corporation.</li>
+                <li><strong>Microsoft SQL Server:</strong> A relational database management system developed by Microsoft.</li>
+                <li><strong>Redis:</strong> An open-source, in-memory data structure store used as a database, cache, and message broker.</li>
+            </ul>
+        </section>
+
+        <section id="databases">
+            <h2>Types of Databases</h2>
+            <p>
+                Different types of databases cater to various data storage and management needs:
+            </p>
+            <ul style="display: flex; flex-wrap: wrap;">
+                <li><strong>Relational Databases:</strong> Use tables to store data with relationships (e.g., MySQL, PostgreSQL).</li>
+                <li><strong>NoSQL Databases:</strong> Designed for unstructured data (e.g., MongoDB, Cassandra).</li>
+                <li><strong>In-memory Databases:</strong> Store data in RAM for faster access (e.g., Redis, Memcached).</li>
+                <li><strong>Cloud Databases:</strong> Hosted in the cloud, providing scalability and flexibility (e.g., Amazon RDS, Google Cloud SQL).</li>
+                <li><strong>Distributed Databases:</strong> Databases that run on multiple servers, ensuring reliability and availability.</li>
+            </ul>
+        </section>
+
+        <section id="inquire">
+            <h2>Inquire About Database Management Services</h2>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="project">Project Description:</label>
+                <textarea id="project" name="project" rows="4" required></textarea>
+
+                <label for="budget">Budget:</label>
+                <input type="text" id="budget" name="budget" required>
+
+                <button type="submit">Submit Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 HnS Developers. All rights reserved.</p>
+    </footer>
+</body>
+</html>

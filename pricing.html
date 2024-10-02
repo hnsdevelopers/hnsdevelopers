@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HnS Developers</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<style>
+
+    section{
+        padding-top: 190px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 150px;
+    }
+            .pricing-container {
+                display: flex;
+                justify-content: space-around;
+                margin-top: 20px;
+            }
+            .plan {
+                background: #fff;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                padding: 20px;
+                text-align: center;
+                width: 25%;
+            }
+            .plan-title {
+                font-size: 24px;
+                margin-bottom: 10px;
+            }
+            .price {
+                font-size: 32px;
+                color: #007bff;
+                margin: 10px 0;
+            }
+            .features {
+                margin: 20px 0;
+                font-size: 16px;
+                text-align: left;
+            }
+            .note {
+                text-align: center;
+                margin-top: 20px;
+                font-size: 14px;
+                color: #777;
+            }
+            .button {
+                background: #007bff;
+                color: white;
+                padding: 10px 15px;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        </style>
+</style>
+<body>
+    <div class="navbar">
+        <div class="heading">
+            <h2>HnS Dev</h2>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <nav>
+            <ul>
+                <li onclick="location.href='index.html'">HOME</li>
+                <li class="servicesBtn" onclick="location.href='#services'">SERVICES</li>
+                <li onclick="location.href='pricing.html'" class="servicesBtn">PRICING</li>
+                <li onclick="location.href='aboutus.html'">ABOUT US</li>
+                <li onclick="location.href='contactus.html'">CONTACT US</li>
+                <div class="searchField">
+                    <input type="text" id="searchServices" placeholder="Search docs..."><p>/</p>
+                </div>
+                <li><i id="darkMode" class="bx bx-moon"></i><i class="bx bx-sun" id="lightMode"></i></li>
+                
+            </ul>
+        </nav>
+
+        
+    </div>
+        <section>
+            <div class="pricing-container">
+                <div class="plan">
+                    <div class="plan-title">Developer Plan</div>
+                    <div class="price">$29/month</div>
+                    <div class="features">
+                        <p>- Up to 5 Projects</p>
+                        <p>- Basic Support</p>
+                        <p>- 10 GB Storage</p>
+                        <p>- Email Support</p>
+                        <p>- Custom Software Development</p>
+                        <p>- Logo Designing</p>
+                    </div>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+    
+                <div class="plan">
+                    <div class="plan-title">Small Business</div>
+                    <div class="price">$79/month</div>
+                    <div class="features">
+                        <p>- Up to 20 Projects</p>
+                        <p>- Priority Support</p>
+                        <p>- 50 GB Storage</p>
+                        <p>- Phone & Email Support</p>
+                        <p>- Website Customization</p>
+                        <p>- Social Media Marketing</p>
+                    </div>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+    
+                <div class="plan">
+                    <div class="plan-title">Medium Businesses</div>
+                    <div class="price">$149/month</div>
+                    <div class="features">
+                        <p>- Up to 50 Projects</p>
+                        <p>- Dedicated Support</p>
+                        <p>- 200 GB Storage</p>
+                        <p>- 24/7 Support</p>
+                        <p>- E-commerce Solutions</p>
+                        <p>- Digital Marketing Strategies</p>
+                    </div>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+    
+                <div class="plan">
+                    <div class="plan-title">Large Scale Enterprises</div>
+                    <div class="price">$299/month</div>
+                    <div class="features">
+                        <p>- Unlimited Projects</p>
+                        <p>- Custom Support Plans</p>
+                        <p>- 1 TB Storage</p>
+                        <p>- Enterprise-Level Support</p>
+                        <p>- Financial Services Application Development</p>
+                        <p>- Data Verification and Validation</p>
+                    </div>
+                    <a href="#" class="button">Get Started</a>
+                </div>
+            </div>
+        </section>
+
+    <hr>
+    <footer>
+        <p>Designed and Developed by <span class="companyName">HnS Developers</span> | Managed on <span class="companyName">GitHub</span></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
