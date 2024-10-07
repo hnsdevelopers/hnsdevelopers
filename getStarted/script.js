@@ -84,7 +84,7 @@ function initializePage(pages) {
     //Graphic Designing
 
     addClickListener('graphic-designing', pages, 'Graphic Designing');
-    addClickListener('social-media-ad-designing', pages, 'Social Media Advt. Designing');
+    addClickListener('social-media-ad-designing', pages, 'Social Media Advertisement Designing');
     addClickListener('banner-designing', pages, 'Banner Designing');
     addClickListener('flyer-designing', pages, 'Flyer Designing');
     addClickListener('logo-designing', pages, 'Logo Designing');
