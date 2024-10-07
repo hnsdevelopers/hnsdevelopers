@@ -8,7 +8,7 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     emailjs.send('service_5oqrxe9', 'template_h94cnl8', {
         name: formData.get('name'),
         email: formData.get('email'),
-        message: formData.get('message')
+        message: formData.get('message'),
         mobile: formData.get('mobile')
     }).then(function(response) {
         alert('Message sent successfully!');
