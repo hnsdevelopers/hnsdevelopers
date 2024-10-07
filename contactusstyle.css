@@ -135,95 +135,68 @@ nav ul {
     border: 1px solid #ccc;
 }
 
-.main{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding-top: 130px;
-    width: 50%;
-    margin: auto;
-    text-align: center;
+.contact-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.main h1{
-    font-size: 48px;
+h1, h2 {
+    color: #333;
 }
 
-.main p{
-    font-size: 21px;
-    margin-bottom: 30px;
-}
-
-.main button#getStarted{
-    height: 39px;
-    padding: 10px;
-    border: none;
-    border-radius: 9px;
-    background-color: rgb(74, 0, 172);
-    /* padding-top: 20px; */
-    color: #fff;
-    box-shadow: 0 0 10px #000;
-    cursor: pointer;
-    margin-bottom: 19px;
-}
-
-.main button#getStarted:hover{
-    background-color: rgb(74, 1, 170);
-}
-
-.main button#getStarted:focus{
-    background-color: rgb(60, 0, 138);
-
-}
-
-.main i{
-    font-size: 12px;
-    color: #ccc;
-}
-
-#services{
-    padding-top: 90px;
-    text-align: center;
-    width: 95%;
-    margin: auto;
-    margin-bottom: 50px;
-}
-
-.allServices{
+form {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
 }
 
-.serviceCard{
-    padding-top: 50px;
-    display: block;
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
-    width: 375px;
-    margin: 3px;
-    transition: 0.6s ease all;
-    border-radius: 25px;
-
 }
 
-.serviceCard .service_desc p{
-    color: grey;
+button:hover {
+    background-color: #555;
 }
 
-.serviceCard .service_name{
-    margin-bottom: 20px;
+.contact-details {
+    margin-top: 40px;
 }
 
-/* .serviceCard:hover{
-    border: 2px solid rgb(185, 152, 228);
-    box-shadow: 0 0 10px rgb(114, 49, 199);
-} */
-
-.serviceCard:hover .service_name{
-    color: rgb(74, 0, 172);
+.location iframe {
+    width: 100%;
+    margin-top: 20px;
 }
 
-.serviceCard:hover .service_desc p{
-    color: #000;
+.newsletter {
+    margin-top: 40px;
+}
+
+.newsletter form {
+    display: flex;
+    gap: 10px;
 }
 
 hr{
