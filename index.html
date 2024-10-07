@@ -7,6 +7,57 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            font-size: 16px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #555;
+        }
+        /* Popup styles */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            width: 80%;
+            max-width: 600px;
+            height: 80%;
+            overflow-y: auto;
+        }
+        .popup-content {
+            padding: 10px;
+        }
+        .popup-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .popup-header h2 {
+            margin: 0;
+        }
+        .close-btn {
+            cursor: pointer;
+            background-color: red;
+            color: white;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 50%;
+            font-size: 18px;
+        }
+    </style>
 <body>
     <div class="navbar">
         <div class="heading">
@@ -96,6 +147,21 @@
         </div>
     </div>
     <hr>
+    <button id="privacyBtn">View Privacy Policy</button>
+    <button id="termsBtn">View Terms and Conditions</button>
+
+    <!-- Popup container -->
+    <div id="popup" class="popup">
+        <div class="popup-header">
+            <h2 id="popupTitle">Popup Title</h2>
+            <button class="close-btn" id="closePopup">&times;</button>
+        </div>
+        <div class="popup-content" id="popupContent">
+            <!-- Content will be loaded here dynamically -->
+        </div>
+    </div>
+
+
     <footer>
         <p>Designed and Developed by <span class="companyName">HnS Developers</span> | Managed on <span class="companyName">GitHub</span></p>
     </footer>
