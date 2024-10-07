@@ -5,10 +5,11 @@ document.getElementById('contactForm').addEventListener('submit', function(event
     let formData = new FormData(this);
 
     // Handle form submission logic here (e.g., using EmailJS)
-    emailjs.send('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', {
+    emailjs.send('service_5oqrxe9', 'template_h94cnl8', {
         name: formData.get('name'),
         email: formData.get('email'),
         message: formData.get('message')
+        mobile: formData.get('mobile')
     }).then(function(response) {
         alert('Message sent successfully!');
     }, function(error) {
