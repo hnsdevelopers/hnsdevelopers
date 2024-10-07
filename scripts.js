@@ -1,5 +1,7 @@
 // Handle form submission
+let buttonSubmit = document.querySelector("#formSubmit")
 document.getElementById('contactForm').addEventListener('submit', function(event) {
+    buttonSubmit.innerText = "Sending Message";
     event.preventDefault();
 
     let formData = new FormData(this);
@@ -11,9 +13,11 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         message: formData.get('message'),
         mobile: formData.get('mobile')
     }).then(function(response) {
-        alert('Message sent successfully!');
+        //alert('Message sent successfully!');
+        buttonSubmit.innerText="Message sent Successfully"
     }, function(error) {
-        alert('Failed to send message: ' + error.text);
+        //alert('Failed to send message: ' + error.text);
+        buttonSubmit.innerText="Failed to send message"
     });
 });
 
