@@ -66,8 +66,8 @@ function openPopup(title, file) {
 }
 
 // Event listeners for buttons
-privacyBtn.addEventListener('click', () => openPopup('Privacy Policy', 'privacy-policy.html'));
-termsBtn.addEventListener('click', () => openPopup('Terms & Conditions', 'terms-and-conditions.html'));
+privacyBtn.addEventListener('click', () => openPopup('Privacy Policy', 'privacyPolicy.html'));
+termsBtn.addEventListener('click', () => openPopup('Terms & Conditions', 'termsAndConditions.html'));
 
 // Event listener to close popup
 closePopup.addEventListener('click', () => {
