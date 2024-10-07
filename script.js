@@ -72,7 +72,6 @@ termsBtn.addEventListener('click', () => openPopup('Terms & Conditions', 'termsA
 // Event listener to close popup
 closePopup.addEventListener('click', () => {
     popup.style.display = 'none'; // Hide the popup
-    location.reload()
 });
 
 // Optional: close popup if the user clicks outside of it
