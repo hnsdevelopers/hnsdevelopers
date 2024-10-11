@@ -1,0 +1,11 @@
+{
+  "users": [{
+    "userName": "Ram Shankar",
+    "userEmail": "printers1975@gmail.com",
+    "userPhone": "9667937110",
+    "userPassword": "Rama@1234",
+    "userType": "Printing Agent",
+    "userCreationDate": "11-Oct-2024",
+    "aboutMe": "Hello! I’m <span id='userName2'></span>, your go-to expert for vehicle covers and graphics solutions. With years of experience in the industry, I specialize in creating high-quality covers that protect and enhance the look of your vehicle. My services include graphic designing for custom vehicle graphics, flex printing for vibrant and durable designs, and professionally crafted visiting cards, flyers, pamphlets, advertisements, hoardings, banners, and posters. I believe every vehicle deserves to look its best while being well-protected, and I strive to provide personalized service tailored to your specific needs. Let’s collaborate to create something amazing together—feel free to reach out to discuss your project ideas or to get started on your next vehicle cover!"
+  }]
+}
